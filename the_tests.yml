@@ -1,0 +1,10 @@
+---
+platform: linux
+
+image: docker:///concourse/busyboxplus
+
+inputs:
+- name: platform
+
+run:
+  path: the_tests
