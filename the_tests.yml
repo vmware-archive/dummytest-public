@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///concourse/busyboxplus#latest
+image: docker:///concourse/busybox#latest
 
 inputs:
 - name: platform
