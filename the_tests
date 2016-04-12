@@ -5,4 +5,7 @@ do
   echo 'im a test'
 done
 
-echo 'the tests ran' > platform/tests.log
+cd platform
+echo 'the tests ran' > tests.log
+git commit -Am 'this is a commit'
+
