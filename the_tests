@@ -4,3 +4,5 @@ do
   echo "for the $ith time"
   echo 'im a test'
 done
+
+echo 'the tests ran' > tests.log
