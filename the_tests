@@ -7,5 +7,3 @@ done
 
 cd platform
 echo 'the tests ran' > tests.log
-git commit -am 'this is a commit'
-
