@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///concourse/busybox#latest
+image: docker:///tracker/platform#mysql-5.6_ruby-2.2.3
 
 inputs:
 - name: platform
