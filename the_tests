@@ -1,8 +1,8 @@
-#/bin/sh
+#!/bin/sh
 for i in 1 2 3 4 5 6
 do
   echo "for the $ith time"
   echo 'im a test'
 done
 
-echo 'the tests ran' > tests.log
+echo 'the tests ran' > platform/tests.log
